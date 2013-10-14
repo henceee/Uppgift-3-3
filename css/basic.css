@@ -1,1 +1,134 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+/* container */
+
+#container
+{
+    background-color: #51473d;
+    max-width:960px;
+    margin: 0 auto;
+    
+}    
+
+
+
+
+/* content */
+
+#content
+{
+    float: left;
+    width: 760px;
+    background-color: #51473d;
+}
+
+
+
+/* topbar */
+
+
+
+
+/* menu */
+
+
+
+
+#menu
+{
+    
+    float: left;
+    width:760px;
+    padding: 0;
+    background-color: #51473d;
+   
+}
+
+
+/* listan i navigation*/
+
+#menu ul
+{
+    list-style: none;
+    
+    
+    
+}
+
+#menu li
+{
+   
+   float: left;
+   margin-right: 5px;
+   width: 120px;
+   
+}
+
+#menu li a
+{
+    text-decoration:none;
+    color: Black;
+    display: block;
+    padding: 10px 30px 10px 20px;
+    background-color:#797066;
+    
+    
+}
+
+#menu a
+{
+    display:none;
+}
+
+#menu a:visited
+{
+    color: black;
+
+}
+
+#menu a:hover 
+
+{
+  
+   background-color: #eae7d2;
+    
+    
+}
+
+.active
+{
+   
+    background-color:#eae7d2;
+}
+
+
+/*content */
+
+
+
+    #content
+{
+    background-color: #eae7d2;
+    margin-bottom:50px;
+    width:960px;
+    float:left;
+    
+    
+}    
+
+
+
+/*subcontent */
+
+
+
+
+/*bottomcontent */
+
+
+
+/* Gul-giege färg #eae7d2 */
+
+/* Brun färg #51473d */
+
+/* inte aktiv länk färg #797066 */
