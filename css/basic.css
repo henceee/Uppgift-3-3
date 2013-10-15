@@ -1,38 +1,23 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+/* BRUN FÄRG: #51473d */
+/* GUL FÄRG: #eae7d2 */
+/* MENU FÄRG: #797066 */
+
 
 /* container */
 
-#container
+/* topbar */
+
+#topbar
 {
-    background-color: #51473d;
-    max-width:960px;
-    margin: 0 auto;
-    
-}    
-
-
-
-
-/* content */
-
-#content
-{
-    float: left;
     width: 760px;
-    background-color: #51473d;
+    height: 100px;
+    float: left;
+    background-color:#51473d;
+
 }
 
 
-
-/* topbar */
-
-
-
-
 /* menu */
-
-
-
 
 #menu
 {
@@ -40,7 +25,7 @@
     float: left;
     width:760px;
     padding: 0;
-    background-color: #51473d;
+    background-color:#51473d;
    
 }
 
@@ -55,35 +40,38 @@
     
 }
 
-#menu li
+#menu li 
 {
    
    float: left;
    margin-right: 5px;
    width: 120px;
    
+   
 }
+
+
+
+/* länkar i navigation (i listan) */
 
 #menu li a
 {
     text-decoration:none;
     color: Black;
     display: block;
-    padding: 10px 30px 10px 20px;
-    background-color:#797066;
+    padding: 10px 30px 10px 5px;
+    background-color: #797066;
+   
     
     
-}
-
-#menu a
-{
-    display:none;
 }
 
 #menu a:visited
 {
     color: black;
 
+    
+    
 }
 
 #menu a:hover 
@@ -95,40 +83,47 @@
     
 }
 
-.active
+#menu a 
 {
-   
+    display:none;
+}
+
+/* content */
+
+#content
+{
+    width: 760px;
+    float: left;
     background-color:#eae7d2;
+    margin-top: 2px;
 }
 
 
-/*content */
 
 
+/*mainconent */
 
-    #content
+#maincontent
 {
-    background-color: #eae7d2;
-    margin-bottom:50px;
-    width:960px;
+    float: left;
+    width: 530px;
+    margin-left: 5px;
+}
+
+#maincontent p
+{
+    margin-right:20px;
+    
+}
+
+img
+{
     float:left;
-    
-    
-}    
+    margin-right: 5px;
+}
 
 
-
-/*subcontent */
-
+/*subconent */
 
 
-
-/*bottomcontent */
-
-
-
-/* Gul-giege färg #eae7d2 */
-
-/* Brun färg #51473d */
-
-/* inte aktiv länk färg #797066 */
+/*bottomconent */
