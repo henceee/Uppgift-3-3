@@ -68,7 +68,28 @@
    
 }
 
+#menu li.active
+{
+    text-decoration: none;
+    background-color: #eae7d2;
+    margin-top: 1px;
+    margin-bottom: -1px;
+    
+}
 
+#menu li.active a
+{
+    color:#797066;
+   
+    
+}
+
+#menu ul li 
+{
+    
+    background-color: #797066;
+    
+}
 
 
 /* länkar i navigation (i listan) */
@@ -79,7 +100,7 @@
     color: #eae7d2;
     display: block;
     padding: 10px 20px 10px 20px;
-    background-color: #797066;
+    
    
     
     
@@ -253,6 +274,8 @@ p
     font-family: verdana;
     font-size: 12px;
     line-height: 30px;
+    margin-top: 10px;
+    
     
     
 
